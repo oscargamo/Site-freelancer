@@ -27,3 +27,12 @@
 > - Cuando llega al minimo en adelante
 >
 >  *Nota* Para dispositivos tablets  **plan**.
+
+> #### Para alinear los elementos vertical y horizontal utilizamos:!
+>
+> - display:flex;
+> - flex-direction:column;
+> - align-items: center
+> - justify-content:center;
+>
+>  *Nota* Siempre tiene que ir en el padre para que afecte a los hijos.
