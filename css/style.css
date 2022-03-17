@@ -58,6 +58,16 @@ h1,h2,h3{
 }
 
 
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112,0.54);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Termina las variables globales */
 .titulo span {
     font-size: 2rem;
 } 
@@ -101,6 +111,7 @@ h1,h2,h3{
     background-size:cover ;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 .contenido-hero{
     position: absolute;
@@ -113,4 +124,56 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+/* Damos estilos en los servicios*/
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio h3{
+    color: var(--secundario);
+    font-weight: normal;
+}
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio .icono{
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Damos los estilos al formulario*/
+
+.formulario{
+    background-color: var(--gris);
+    width: min(60rem,100%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.formulario fieldset{
+    border-style: none;
+}
+.formulario legend{
+    color: var(--primario);
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
 }
