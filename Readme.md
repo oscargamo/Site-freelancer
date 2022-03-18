@@ -16,7 +16,7 @@
 
 > #### Para los disposotivos laptops y de escritorio!
 >
-> - @media(min-width:11140px)
+> - @media(min-width:1140px)
 > - Cuando llega al minimo en adelante
 >
 >  *Nota* Para dispositivos tablets  **plan**.
