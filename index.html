@@ -16,7 +16,7 @@
 <body>
     <!-- Seccion del header -->
     <header>
-        <h1>Oscar Galindo Morales <span>FreeLancer</span></h1>
+        <h1 class="titulo">Oscar Galindo Morales <span>FreeLancer</span></h1>
     </header>
     <!-- Seccion de la navegación -->
     <div class="nav-bg">
@@ -99,29 +99,35 @@
         <!-- Seccion de Formulario -->
         <section >
             <h2>Contacto</h2>
-            <form class="formulario">
+            <form class="formulario">                
                 <fieldset>
                     <legend>Contactanos llenando todos los campos</legend>
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Nombre">
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Nombre" class="input-text">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input type="tel" placeholder="Tu Telefono " class="input-text">
+                        </div>
+                        <div class="campo">
+                            <label>E-Mail</label>
+                            <input type="email" placeholder="Tu Correo Electronico" class="input-text">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
                     </div>
-                    <div>
-                        <label>Telefono</label>
-                        <input type="tel" placeholder="Tu Telefono ">
-                    </div>
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar" >
                     </div>
                 </fieldset>
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos Reservados &copy;. Oscar Galindo Morales</p>
     </footer>
 
