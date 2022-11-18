@@ -1,6 +1,6 @@
 # Elementos para Media Querys
 
-> #### Para los disposotivos moviles!
+> #### Para los dispositivos moviles!
 >
 > - @media(min-width:480px)
 > - Cuando llega al minimo en adelante
